@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import Catalogue from './pages/Catalogue';
 // Import our Product Detail page
 import ProductDetail from './pages/ProductDetail';
+// Import our Contact page
+import Contact from './pages/Contact';
 
 // --- PLACEHOLDER PAGE COMPONENTS (We will build these out properly next) ---
 
@@ -26,13 +28,6 @@ const About = () => (
   <div className="p-10 text-center">
     <h2 className="text-3xl font-bold text-slate-800">About GreenPower Tech</h2>
     <p className="mt-4 text-gray-600">Company history and certifications.</p>
-  </div>
-);
-
-const Contact = () => (
-  <div className="p-10 text-center">
-    <h2 className="text-3xl font-bold text-slate-800">Dealer Inquiries</h2>
-    <p className="mt-4 text-gray-600">Contact form and location map.</p>
   </div>
 );
 
