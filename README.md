@@ -1,16 +1,59 @@
-# React + Vite
+# GreenPower Tech - Digital Catalogue Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, responsive B2B digital catalogue built for **GreenPower Tech**. This application allows dealers to browse sustainable energy products, view technical specifications, and request quotes without displaying direct pricing.
 
-Currently, two official plugins are available:
+This project was developed as a comprehensive assignment to demonstrate modern frontend development skills, responsive design, and professional UI/UX principles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Professional UI/UX:** Clean, industrial design using a custom Emerald & Slate color palette suitable for the energy sector.
+- **Complete Product Catalogue:** Filterable grid view for Generators, Solar Panels, Storage Systems, and Inverters.
+- **Dynamic Product Details:**
+  - **Technical Specifications:** Data-driven specs table for every product.
+  - **Smart Image Gallery:** Automatically loads relevant context images (installation, close-ups) based on the product category.
+- **"Price-Neutral" Design:** All pricing is replaced with "Request Dealer Quote" CTAs for B2B usage.
+- **Fully Responsive:** Optimized for Mobile, Tablet, and Desktop screens.
+- **Routing:** Seamless client-side navigation using React Router (SPA).
+- **Contact & Lead Gen:** Functional contact forms and dealer inquiry sections.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework:** React 19 (Vite)
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Routing:** React Router DOM v6
+- **Build Tool:** Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/GuduruVinay/Digital-Catalogue.git](https://github.com/GuduruVinay/Digital-Catalogue.git)
+cd digital-catalogue
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run
+
+```bash
+npm run dev
+```
+
+## GitHub Link
+
+```bash
+https://github.com/GuduruVinay/Digital-Catalogue
+```
