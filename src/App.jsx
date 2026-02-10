@@ -3,6 +3,8 @@ import { ArrowRight } from 'lucide-react';
 
 // Import our Navbar
 import Navbar from './components/Navbar';
+// Import our Home page
+import Home from './pages/Home';
 // Import our Catalogue page 
 import Catalogue from './pages/Catalogue';
 // Import our Product Detail page
@@ -11,20 +13,6 @@ import ProductDetail from './pages/ProductDetail';
 import Contact from './pages/Contact';
 // Import our About page
 import About from './pages/About';
-
-// --- PLACEHOLDER PAGE COMPONENTS (We will build these out properly next) ---
-
-const Home = () => (
-  <div className="flex flex-col items-center justify-center min-h-[80vh] bg-gray-50 text-center px-4">
-    <h1 className="text-5xl font-bold text-slate-800 mb-6">Sustainable Power for Industry</h1>
-    <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-      High-performance energy solutions for dealers and commercial partners.
-    </p>
-    <Link to="/catalogue" className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition flex items-center gap-2">
-      View Catalogue <ArrowRight size={20} />
-    </Link>
-  </div>
-);
 
 const NotFound = () => (
   <div className="p-20 text-center text-red-500 font-bold">
