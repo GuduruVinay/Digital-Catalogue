@@ -9,7 +9,7 @@ const NotFound = () => {
       {/* 404 Visual */}
       <h1 className="text-9xl font-extrabold text-emerald-100">404</h1>
       
-      <div className="absolute mt-[-50px]">
+      <div className="absolute -mt-12.5">
          <div className="bg-white p-4 rounded-full shadow-lg inline-block mb-4">
             <Search size={48} className="text-emerald-600" />
          </div>
