@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import our Navbar
 import Navbar from './components/Navbar';

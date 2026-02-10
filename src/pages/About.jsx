@@ -1,5 +1,4 @@
-import React from 'react';
-import { Award, Users, Globe, TrendingUp, CheckCircle } from 'lucide-react';
+import { Award, Users, Globe, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
