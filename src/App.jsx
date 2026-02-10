@@ -5,6 +5,8 @@ import { ArrowRight } from 'lucide-react';
 import Navbar from './components/Navbar';
 // Import our Catalogue page 
 import Catalogue from './pages/Catalogue';
+// Import our Product Detail page
+import ProductDetail from './pages/ProductDetail';
 
 // --- PLACEHOLDER PAGE COMPONENTS (We will build these out properly next) ---
 
@@ -17,13 +19,6 @@ const Home = () => (
     <Link to="/catalogue" className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition flex items-center gap-2">
       View Catalogue <ArrowRight size={20} />
     </Link>
-  </div>
-);
-
-const ProductDetail = () => (
-  <div className="p-10 text-center">
-    <h2 className="text-3xl font-bold text-slate-800">Product Details</h2>
-    <p className="mt-4 text-gray-600">Specifications for a single product will go here.</p>
   </div>
 );
 

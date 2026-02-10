@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Filter, ArrowRight } from 'lucide-react';
 import { products } from '../data/products'; // Ensure this path matches where you saved the data
@@ -68,11 +68,11 @@ const Catalogue = () => {
               </div>
 
               {/* Card Content */}
-              <div className="p-6 flex-grow flex flex-col">
+              <div className="p-6 grow flex flex-col">
                 <h3 className="text-xl font-bold text-slate-800 mb-2 line-clamp-1">
                   {product.name}
                 </h3>
-                <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">
+                <p className="text-gray-600 text-sm mb-4 line-clamp-2 grow">
                   {product.description}
                 </p>
 
@@ -89,7 +89,7 @@ const Catalogue = () => {
                 {/* Action Button */}
                 <Link 
                   to={`/product/${product.id}`}
-                  className="w-full block text-center bg-slate-900 text-white py-3 rounded-lg font-medium hover:bg-emerald-600 transition-colors flex items-center justify-center gap-2 group"
+                  className="w-full text-center bg-slate-900 text-white py-3 rounded-lg font-medium hover:bg-emerald-600 transition-colors flex items-center justify-center gap-2 group"
                 >
                   View Specifications 
                   <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
