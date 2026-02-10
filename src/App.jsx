@@ -9,6 +9,8 @@ import Catalogue from './pages/Catalogue';
 import ProductDetail from './pages/ProductDetail';
 // Import our Contact page
 import Contact from './pages/Contact';
+// Import our About page
+import About from './pages/About';
 
 // --- PLACEHOLDER PAGE COMPONENTS (We will build these out properly next) ---
 
@@ -21,13 +23,6 @@ const Home = () => (
     <Link to="/catalogue" className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition flex items-center gap-2">
       View Catalogue <ArrowRight size={20} />
     </Link>
-  </div>
-);
-
-const About = () => (
-  <div className="p-10 text-center">
-    <h2 className="text-3xl font-bold text-slate-800">About GreenPower Tech</h2>
-    <p className="mt-4 text-gray-600">Company history and certifications.</p>
   </div>
 );
 
