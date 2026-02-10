@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-start justify-center min-h-[600px]">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-start justify-center min-h-150">
           <span className="bg-emerald-500 text-white px-3 py-1 rounded-full text-sm font-bold tracking-wide uppercase mb-6 animate-fade-in-up">
             New 2026 Catalogue
           </span>
