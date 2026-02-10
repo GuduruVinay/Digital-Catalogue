@@ -36,7 +36,7 @@ Follow these steps to run the project locally on your machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/GuduruVinay/Digital-Catalogue.git](https://github.com/GuduruVinay/Digital-Catalogue.git)
+git clone https://github.com/GuduruVinay/Digital-Catalogue.git
 cd digital-catalogue
 ```
 
@@ -46,7 +46,7 @@ cd digital-catalogue
 npm install
 ```
 
-### 3. Run
+### 3. Run the project
 
 ```bash
 npm run dev
@@ -54,6 +54,4 @@ npm run dev
 
 ## GitHub Link
 
-```bash
 https://github.com/GuduruVinay/Digital-Catalogue
-```
